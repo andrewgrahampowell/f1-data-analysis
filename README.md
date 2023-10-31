@@ -26,4 +26,6 @@ This project offers a unique opportunity to combine the technical skills of SQL 
 
 ## Links:
 
+Link to full Deepnote Project Notebook:https://deepnote.com/workspace/andrewgrahampowell-fc4080cf-e445-4363-afc0-0550a1298310/project/Welcome-to-Deepnote-82671792-e81f-4713-96aa-a93ee5b52bd4
+
 Link to interactive Tableau dashboard: https://public.tableau.com/app/profile/andrew.graham.powell/viz/F1-Analysis1953-2020/F1Analysis1953-2020
