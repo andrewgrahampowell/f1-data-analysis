@@ -155,17 +155,15 @@ ORDER BY average_points DESC;
 -- Find the driver with the highest average career finish (min 20 races) (Ascari)
 
 SELECT 
-    results.driverId,
-    AVG(results.position) AS average_position,
-    COUNT(results.RaceId),
-    drivers.surname,
-    drivers.forename
-FROM
-    results
-        JOIN
-    drivers ON results.driverId = drivers.driverId
-GROUP BY results.driverId , drivers.surname, drivers.forename
-HAVING COUNT(results.RaceId) > 20
+    r.driverId,
+    AVG(NULLIF(CAST(r.position AS SIGNED), 0)) AS average_position,
+    COUNT(r.RaceId) AS total_races,
+    d.surname,
+    d.forename
+FROM results r
+JOIN drivers d ON r.driverId = d.driverId
+GROUP BY r.driverId, d.surname, d.forename
+HAVING total_races > 20
 ORDER BY average_position ASC;
 
 -- Finding the driver with the lowest average career finish (min 20 races) (Chilton)
