@@ -22,7 +22,7 @@ Gain a deeper understanding of Formula 1 racing from a data-driven perspective.
 
 Enhance the overall Formula 1 fan experience by making complex data accessible and engaging.
 
-This project offers a unique opportunity to combine the technical skills of SQL with the data visualization capabilities of Tableau to unlock insights about one of the dynamic sports in the world.
+This project offers a unique opportunity to combine the technical skills of SQL with the data visualisation capabilities of Tableau to unlock insights about one of the dynamic sports in the world.
 
 ## Links:
 
