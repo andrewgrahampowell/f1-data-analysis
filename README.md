@@ -1,3 +1,5 @@
+<img width="1329" alt="Screenshot 2023-12-30 at 12 06 02" src="https://github.com/andrewgrahampowell/f1-data-analysis/assets/98211756/37f73cd5-8d2e-41c7-af2d-13e7bee6f097">
+
 # F1 Data Analysis Project
 
 The Formula 1 Data Analysis project is a comprehensive exploration of the world of Formula 1 racing through the lens of data analytics. This project combines the power of SQL for data manipulation and Tableau for data visualisation to provide insights into the thrilling world of Formula 1 racing from 1953-2020.
